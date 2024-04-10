@@ -125,7 +125,7 @@ def run_syft_spdx(image_name, image_version, output_path):
     print(f"start syft {image_name}:{image_version}")
 
     # syft [name]:[version] -o spdx-json@2.2
-    cmd = ['syft', f"{image_name}:{image_version}", '-o', 'spdx-json@2.2']
+    cmd = ['syft', f"{image_name}:{image_version}", '-o', 'spdx-json@2.3']
     results = sp.run(args=cmd, stdout=sp.PIPE, stderr=sp.PIPE).stdout.decode('utf-8')
     f = open(f"{output_path}SPDX2.2/sbom_syft:0.102.0_{image_name}:{image_version.replace('_', '-')}_spdx:2.2_.spdx.json", "w")
     f.write(results)
