@@ -42,9 +42,9 @@ most pulled docker images (two omitted, see manuscript for details) and their en
 throughout the image's version history are selected, then SBOM generation commences. 
 For each docker image and version pair, 4 SBOMs will be generated:
 - generated with Trivy in CDX 1.5 format
-- generated with Trivy in SPDX 2.2 format
+- generated with Trivy in SPDX 2.3 format
 - generated with Syft in CDX 1.5 format
-- generated with Syft in SPDX 2.2 format
+- generated with Syft in SPDX 2.3 format
 
 #### 02_evaluate
 This folder contains the scripts to evaluate the SBOMs present in 01_acquisition/04_product as well as the results from the static analysis tools used for analysis. This 
