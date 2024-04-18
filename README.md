@@ -1,5 +1,6 @@
 ### Introduction
 
+
 This data pipeline contains all the code needed to recreate the analyses and
 plots contained in our manuscript entitled "TODO: CSR paper title". Each of the folders here is 
 intended to be run in sequence. 
@@ -66,6 +67,9 @@ them from there.
 
 
 note - file and folder names use the string "SPDX2.2" but we are assessing SPDX 2.3. During the pipeline development we initially focused on SPDX 2.2 but later moved to SPDX 2.3 and did not change names in case of introducing bugs. 
+
+### Pipeline Figure
+![p2 pipeline](https://github.com/MSUSEL/msusecl-sbom-generation-and-analysis-pipeline/assets/48160705/68b4fa92-20d6-4997-8fa9-ca82b17f92bf)
 
 ### Funding Agency:  
 [<img src="https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/images/backgrounds/6fdaa25709d28dfb5cca.svg" width="20%" height="20%">](https://www.cisa.gov/)
