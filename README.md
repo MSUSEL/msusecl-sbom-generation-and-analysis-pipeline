@@ -70,8 +70,9 @@ note 1 - File and folder names use the string "SPDX2.2" but we are assessing SPD
 
 note 2 - Because this project requires pulling large amount of Docker images to generate SBOMs from, a Docker pro subscription is required when running this pipeline in order to not hit the image pull rate limit.
 
-### Pipeline Figure
-![p2 pipeline](https://github.com/MSUSEL/msusecl-sbom-generation-and-analysis-pipeline/assets/48160705/68b4fa92-20d6-4997-8fa9-ca82b17f92bf)
+### Pipeline Figure!
+
+![p2 pipeline](https://github.com/user-attachments/assets/a5c68da1-ee93-4218-8bde-099ce993fba0)
 
 ### Funding Agency:  
 [<img src="https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/dist/images/backgrounds/6fdaa25709d28dfb5cca.svg" width="20%" height="20%">](https://www.cisa.gov/)
