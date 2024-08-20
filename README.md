@@ -2,8 +2,8 @@
 
 
 This data pipeline contains all the code needed to recreate the analyses and
-plots contained in our manuscript entitled "TODO: CSR paper title". Each of the folders here is 
-intended to be run in sequence. 
+plots contained in our manuscript entitled "Impacts of Software Bill of Materials (SBOM) Generation on Vulnerability Detection". 
+Each of the folders here is intended to be run in sequence. 
 
 All code is written for Python 3.10.12 except for a portion of the data analysis which is written for R v4.2.2. Regenerating the results has the following system requirements.
 Trivy version 0.49.0, Syft version 0.102.0, Grype version 0.74.3, CVE-bin-tool version 3.2.1 and Sbomqs 0.0.30 (links found below). Additionally the code relies on the Python libraries: argparse, pandas, os, datetime, csv, subprocess, json, shutil, matplotlib, and numpy.
