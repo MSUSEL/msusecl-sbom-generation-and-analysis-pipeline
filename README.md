@@ -70,7 +70,7 @@ note 1 - File and folder names use the string "SPDX2.2" but we are assessing SPD
 
 note 2 - Because this project requires pulling large amount of Docker images to generate SBOMs from, a Docker pro subscription is required when running this pipeline in order to not hit the image pull rate limit.
 
-### Pipeline Figure!
+### Pipeline Figure:
 
 ![p2 pipeline](https://github.com/user-attachments/assets/a5c68da1-ee93-4218-8bde-099ce993fba0)
 
